@@ -52,10 +52,28 @@ for(i=0; i<basketTeams.length; i++){
     basketTeams[i].takenFouls = randomFouls;
 }
 
+const basketTeamsAndFouls = [];
+
+for(i=0; i< basketTeams.length; i++){
+    const newObject = {};
+    newObject.name = basketTeams[i].name;
+    newObject.takenFouls = basketTeams[i].takenFouls;
+    basketTeamsAndFouls.push(newObject);
+}
+
+console.log(basketTeamsAndFouls);
 
 
 
 
+//ESERCIZIO CON DELETE
+// const basketTeamsAndFouls = basketTeams;
+
+// for(i=0; i < basketTeamsAndFouls.length; i++){
+//     delete basketTeamsAndFouls[i].points;
+// }
+
+// console.log("Basket team and foul", basketTeamsAndFouls);
 
 
 
