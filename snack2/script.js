@@ -65,15 +65,16 @@ console.log(basketTeamsAndFouls);
 
 
 
+// console.log("array originale", basketTeams);
+// // //ESERCIZIO CON DELETE
+// // const basketTeamsAndFouls = basketTeams;
 
-//ESERCIZIO CON DELETE
-// const basketTeamsAndFouls = basketTeams;
+// // for(i=0; i < basketTeamsAndFouls.length; i++){
+// //     delete basketTeamsAndFouls[i].points;
+// // }
 
-// for(i=0; i < basketTeamsAndFouls.length; i++){
-//     delete basketTeamsAndFouls[i].points;
-// }
-
-// console.log("Basket team and foul", basketTeamsAndFouls);
+// // console.log("Nuovo array ", basketTeamsAndFouls);
+// // console.log("Array originale", basketTeams);
 
 
 
