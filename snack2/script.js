@@ -55,10 +55,10 @@ for(i=0; i<basketTeams.length; i++){
 const basketTeamsAndFouls = [];
 
 for(i=0; i< basketTeams.length; i++){
-    const newObject = {};
-    newObject.name = basketTeams[i].name;
-    newObject.takenFouls = basketTeams[i].takenFouls;
-    basketTeamsAndFouls.push(newObject);
+    basketTeamsAndFouls.push({
+        name: basketTeams[i].name,
+        takenFouls: basketTeams[i].takenFouls
+    });
 }
 
 console.log(basketTeamsAndFouls);
